@@ -1,0 +1,21 @@
+# Core RAG & LLM Orchestration
+langchain==0.2.11
+langchain-community==0.2.10
+langchain-chroma==0.1.2
+langchain-mistralai==0.1.12
+langchain-huggingface==0.1.0
+
+# Vector Database & Embeddings
+chromadb==0.5.3
+sentence-transformers==3.0.1
+
+# Document Parsing
+pypdf==4.2.0
+
+# Evaluation (Crucial for your MS Profile)
+ragas==0.1.10
+
+# UI & Utilities
+streamlit==1.36.0
+python-dotenv==1.0.1
+
