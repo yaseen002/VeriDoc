@@ -9,6 +9,9 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
+import posthog
+posthog.capture = lambda *args, **kwargs: None
+
 def build_persistent_vector_store(pdf_path: str, persist_directory: str = "./chroma_db"):
     print(f"📄 Loading PDF: {pdf_path}...")
     loader = PyPDFLoader(pdf_path)

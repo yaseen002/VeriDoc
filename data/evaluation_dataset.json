@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What is the primary role of the European Artificial Intelligence Board?",
+    "ground_truth": "The Board is responsible for facilitating a smooth, effective, and harmonized implementation of the AI Act, advising the Commission, and issuing recommendations and opinions on AI matters.",
+    "context": "The European Artificial Intelligence Board shall be composed of one representative per Member State. Its tasks include facilitating a smooth, effective and harmonised implementation of this Regulation, advising and assisting the Commission, and issuing recommendations and opinions."
+  },
+  {
+    "question": "Are real-time remote biometric identification systems allowed in publicly accessible spaces for law enforcement?",
+    "ground_truth": "They are generally prohibited, except in strictly defined, narrowly tailored exceptions for specific law enforcement purposes, such as searching for a missing child or preventing a specific, imminent terrorist threat, and only with prior judicial authorization.",
+    "context": "The use of real-time remote biometric identification systems in publicly accessible spaces for the purpose of law enforcement is prohibited, unless such use is strictly necessary for one of the following objectives: the targeted search for specific victims of abduction, trafficking in human beings or sexual exploitation of human beings, or the prevention of a specific, substantial and imminent threat to the life or physical safety of natural persons or a genuine and present or genuine and foreseeable threat of a terrorist attack."
+  },
+  {
+    "question": "What must providers of high-risk AI systems do regarding data governance?",
+    "ground_truth": "They must establish data governance and management practices that ensure training, validation, and testing datasets are relevant, representative, free of errors, and complete.",
+    "context": "High-risk AI systems shall be designed and developed in such a way that they achieve an appropriate level of accuracy, robustness, and cybersecurity. To that end, the quality of data sets used to train, validate and test those systems shall be ensured through appropriate data governance and management practices."
+  }
+]

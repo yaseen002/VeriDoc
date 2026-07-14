@@ -13,6 +13,9 @@ from langchain_core.runnables import RunnablePassthrough
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
+import posthog
+posthog.capture = lambda *args, **kwargs: None
+
 load_dotenv()
 
 def format_docs(docs):
